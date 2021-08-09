@@ -58,4 +58,8 @@ function displayImg(pokeSprites){
     $("#poke-container").append(`<img src="${pokeSprites.front_default}" alt="" width="">`);
 }
 
+function renderMD(){
+
+}
+
 handleGenerateBtn();
