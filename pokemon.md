@@ -32,9 +32,9 @@ including the script tags)
    static app that allows users to click on the `catch 'em all` button 
    that will display a random pokemon's name and image. 
 
-  A user should be able to continue "catching" random pokemon and see 
-  them on the page.
--  
+   A user should be able to continue "catching" random pokemon and see 
+   them appear on the page.
+ 
 
 ### BONUS:
 - statically remove a pokemon from the page (you will not be 
@@ -42,4 +42,5 @@ able to DELETE pokemon from the API)
 -  add some styling to your page ([bootstrap](https://getbootstrap.com/) is welcome)
 - ask for user's name and display the following sentence on the page: 
   "Welcome, `person's name`! You have caught `num of pokemon caught`"
-- 
+- limit to only 6 pokemon per page, but allow user to click through 
+  pages of pokemon [see this](https://pokeapi.co/docs/v2#resource-listspagination-section)
