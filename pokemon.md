@@ -2,15 +2,13 @@
 
 ## Getting Started
 visit [this page](https://pokeapi.co/docs/v2#pokemon) and familiarize 
-yourself a bit with the PokeAPI. We will be using the `https://pokeapi.
-co/api/v2/pokemon` endpoint. 
+yourself a bit with the PokeAPI. We will be using the `https://pokeapi.co/api/v2/pokemon` endpoint. 
 
 ### Resources
 - [jQuery](https://jquery.com/)
 - [pokeAPI](https://pokeapi.co/)
 - [how to retrieve images from pokeAPI](https://pokeapi-how.appspot.com/page5)
 - [how to make a GET fetch request](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
-- []
 
 ### Start Here:
 In a new IntelliJ project, create the following files:
