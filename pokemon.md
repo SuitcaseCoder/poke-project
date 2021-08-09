@@ -11,14 +11,28 @@ yourself a bit with the PokeAPI. We will be using the `https://pokeapi.co/api/v2
 - [how to make a GET fetch request](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
 
 ### Start Here:
-In a new IntelliJ project, create the following files:
-  - `app.js`: your app lives here, mainly
-  - `index.html`
-  - don't forget to:
-    - link your js file to your html file
-    - include jquery in the right spot
-    - hydrate
-    - have fun
+In IntelliJ
+  - File > new > project > choose: `web` and click: `finish`
+In GitHub
+  - `+` > new repository > name your repository "pokemon-project" > 
+    leave it as public, don't add a README file > click `create 
+    repository`
+  - copy everything (or click the clipboard) under `...or create a new 
+    repository on the command line`
+    
+In Intellij:
+  - Open the terminal and cd into your newly created project
+  - Copy pasta what you had just copied from your github repo hit return
+  
+In your newly created a new IntelliJ project:
+  - Create the following files:
+    - `app.js`: your app lives here, mainly
+    - `index.html`
+    - don't forget to:
+        - link your js file to your html file
+        - include jquery in the right spot
+        - hydrate
+        - have fun
 
 Your HTML file should have only two elements inside the body (not 
 including the script tags)
@@ -26,12 +40,13 @@ including the script tags)
    - a button with an id of `catch-btn`; 
 
 ### Challenge
-   Using jquery or DOM manipulation (your choice), create an 
-   static app that allows users to click on the `catch 'em all` button 
-   that will display a random pokemon's name and image. 
+   Using jquery or DOM manipulation (your choice), create a
+   static app that allows users to click on the `I Choose You!` button 
+   that will display a random pokemon's name and image plus 3 more 
+   details (your choice) about that pokemon.
 
    A user should be able to continue "catching" random pokemon and see 
-   them appear on the page.
+   them appear on the page. 
  
 
 ### BONUS:
