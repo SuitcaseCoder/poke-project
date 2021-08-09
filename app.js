@@ -55,7 +55,7 @@ function catchOnePokemon(pokeUrl) {
 
 function displayImg(pokeSprites){
     console.log(pokeSprites);
-    $("#poke-container").append(`<img src="${pokeSprites.front_default}" alt="" id="poke-img">`);
+    $("#poke-container").append(`<img src="${pokeSprites.front_default}" alt="" width="">`);
 }
 
 handleGenerateBtn();
