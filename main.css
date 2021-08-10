@@ -4,6 +4,25 @@
 
 }
 
-h1{
-    font-family: pokeFontHollow;
+body {
+    background-color: rgb(36, 36, 36);
+    color: white;
+    font-family: Sigmar One;
+}
+
+h1 {
+    margin: 20px 0;
+}
+
+ul li {
+    list-style-type: none;
+    text-align: left;
+}
+
+button {
+    background-color: white;
+    color: red;
+    font-weight: bold;
+    padding: 15px;
+    border: 2px solid white
 }

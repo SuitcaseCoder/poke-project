@@ -24,11 +24,12 @@ function makeApiCall() {
 function generateRandom(pokemon) {
     // create variables
     // console.log(pokemon);
+    $("#poke-container").append(`<div id="each-poke" class="col"></div>`)
     let allPokemon = pokemon.results
     let randomPokemon = allPokemon[Math.floor(Math.random() * allPokemon.length)]
     // console.log(randomPokemon);
-    $("#poke-container").append(`
-        <h3>${randomPokemon.name}</h3>
+    $("#each-poke").append(`
+        <h3 class="">${randomPokemon.name}</h3>
     `)
     catchOnePokemon(randomPokemon.url);
 }
@@ -39,12 +40,13 @@ function catchOnePokemon(pokeUrl) {
         .then(res => res.json())
         .then(data => {
             // console.log(data);
-            $("#poke-container").append(`
-               <p>base experience: ${data.base_experience}</p>
-               <p>height: ${data.height}</p>
-                <p>order: ${data.order}</p>
-                <p>weight: ${data.weight}</p>
-            `)
+            $("#each-poke").append(`
+                <ul class="container">
+                <li>base experience: ${data.base_experience}</li>
+                <li>height: ${data.height}</li>
+                <li>order: ${data.order}</li>
+                <li>weight: ${data.weight}</li>
+</ul>`)
             displayImg(data.sprites);
         })
         .catch(err => {
@@ -55,7 +57,7 @@ function catchOnePokemon(pokeUrl) {
 
 function displayImg(pokeSprites){
     console.log(pokeSprites);
-    $("#poke-container").append(`<img src="${pokeSprites.front_default}" alt="" width="">`);
+    $("#each-poke").append(`<img src="${pokeSprites.front_default}" alt="" width="" class="">`);
 }
 
 function renderMD(){
